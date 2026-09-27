@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo_testing",
+  "version": "1.0.0",
+  "description": "SauceDemo Playwright automation suite",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "node scripts/show-report.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.3"
+  }
+}
