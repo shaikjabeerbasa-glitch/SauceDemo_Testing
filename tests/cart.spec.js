@@ -14,7 +14,6 @@ test.describe('Shopping Cart', () => {
     await expect(page).toHaveURL(/inventory\.html/);
   });
 
-
   test('SD-FLOW-03 - Customer can add multiple products and validate cart state', async ({ page }) => {
 
     const products = page.locator('.inventory_item');
